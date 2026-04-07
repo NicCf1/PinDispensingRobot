@@ -1,0 +1,23 @@
+m17
+G0 Y174 Z120 X0 E100 F80
+G0 X120 Y100
+sleep(0.5)
+G0 X200 Y100
+sleep(0.5)
+G0 x0 y200 z-50 e200 f90
+sleep(0.5)
+g0 e0 f75
+sleep(0.5)
+g0 y174 Z120
+g0 e50 x130 f90
+g0 e150 x-130 f90
+g0 e100 f50
+g0 e100 y174 z120 x0 
+g0 e175 f85
+g0 y200 z-50 f85
+g0 y174 z120 e50 f85
+g0 x0 y200 z-50 e200 f85 
+g0 x0 y174 z120 f85 
+sleep(3)
+
+
